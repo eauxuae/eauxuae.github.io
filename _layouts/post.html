@@ -22,13 +22,25 @@ layout: default
 
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h3>Related posts</h3>
+  <h3>Articles similaires</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d" }} {% assign m = post.date | date: "%m" %}{% case m %}
+            {% when '01' %}jan.
+            {% when '02' %}fév.
+            {% when '03' %}mars
+            {% when '04' %}avr.
+            {% when '05' %}mai
+            {% when '06' %}juin
+            {% when '07' %}juill.
+            {% when '08' %}août
+            {% when '09' %}sept.
+            {% when '10' %}oct.
+            {% when '11' %}nov.
+            {% when '12' %}déc.{% endcase %} {{ post.date | date: "%Y" }}</time></small>
         </a>
       </li>
     {% endfor %}
