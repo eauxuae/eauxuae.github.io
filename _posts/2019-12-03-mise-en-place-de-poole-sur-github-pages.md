@@ -17,14 +17,14 @@ En suivant ces mêmes instructions d'utilisation, vous pouvez configurer votre i
 
 Ci-dessous la liste des modifications supplémentaires que j'ai apporté de mon côté :
 
-1. Ayant décidé d'écrire en français, j'ai traduit les éléments de pagination (https://github.com/eauxuae/eauxuae.github.io/commit/da99c228bfe0fa0ca5a95771da5774257cddc2d6), les dates des articles (https://github.com/eauxuae/eauxuae.github.io/commit/ec8245336cb2aca4c179c8875dd7d941d0ab46ea) grâce à ces [exemples](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) et la page d'erreur 404 (https://github.com/eauxuae/eauxuae.github.io/commit/bab7df06e145e1f130e31f9ed84064723afaf159).
-2. J'ai désactivé la propriété `border-radius` (https://github.com/eauxuae/eauxuae.github.io/commit/26bc1b63f2f77c634ee790590d7ac2d4dcf37901).
-3. J'ai mis à jour le pied de page avec une licence Creative Commons (https://github.com/eauxuae/eauxuae.github.io/commit/920ff8971176b6b44e33aad596df880932990405).
-4. J'ai modifié les icônes (https://github.com/eauxuae/eauxuae.github.io/commit/143c8e8e3357f52f4d9a5f8271dad592778462c1) en utilisant cette [ressource](https://www.flaticon.com/free-icon/drop_616878). 
-5. J'ai remplacé le fichier `.gitignore` par celui de Jekyll (https://github.com/eauxuae/eauxuae.github.io/commit/4ec0c6f95d461f7acf88870d43539170f9e6dd4c).
+1. Ayant décidé d'écrire en français, j'ai traduit les [éléments de pagination](https://github.com/eauxuae/eauxuae.github.io/commit/da99c228bfe0fa0ca5a95771da5774257cddc2d6), les [dates des articles](https://github.com/eauxuae/eauxuae.github.io/commit/ec8245336cb2aca4c179c8875dd7d941d0ab46ea) grâce à ces [exemples](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) et la [page d'erreur 404](https://github.com/eauxuae/eauxuae.github.io/commit/bab7df06e145e1f130e31f9ed84064723afaf159).
+2. J'ai désactivé la [propriété `border-radius`](https://github.com/eauxuae/eauxuae.github.io/commit/26bc1b63f2f77c634ee790590d7ac2d4dcf37901).
+3. J'ai mis à jour le [pied de page](https://github.com/eauxuae/eauxuae.github.io/commit/920ff8971176b6b44e33aad596df880932990405) avec une licence Creative Commons.
+4. J'ai modifié les [icônes](https://github.com/eauxuae/eauxuae.github.io/commit/143c8e8e3357f52f4d9a5f8271dad592778462c1) en utilisant cette [ressource](https://www.flaticon.com/free-icon/drop_616878). 
+5. J'ai remplacé le [fichier `.gitignore`](https://github.com/eauxuae/eauxuae.github.io/commit/4ec0c6f95d461f7acf88870d43539170f9e6dd4c) par celui de Jekyll.
 
 Il y a quelques exemples d'articles dans le dossier `_posts` et cette [antisèche Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) est assez pratique pour la rédaction en cas de besoin.
 
-Après avoir fait tout ça, placez-vous dans le dossier de votre projet Poole, exécutez la commande `jekyll serve` et allez sur http://localhost:4000 afin de visiter votre site sur votre ordinateur.
+Après avoir fait tout ça, vous pouvez vous placer dans le dossier de votre projet Poole, exécuter la commande `jekyll serve` et aller sur http://localhost:4000 afin de visiter votre site sur votre ordinateur.
 
 Dès que vous pousserez votre travail sur le dépôt distant, GitHub se fera un plaisir de générer et de publier votre site en ligne.
