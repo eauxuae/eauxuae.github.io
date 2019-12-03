@@ -5,7 +5,7 @@ permalink:           pretty
 title:               eauxuae
 tagline:             —
 url:                 https://github.com/eauxuae
-paginate:            5
+paginate:            4
 baseurl:             ""
 
 # Assets
@@ -30,3 +30,6 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+# Plugins
+plugins: [jekyll-paginate]
