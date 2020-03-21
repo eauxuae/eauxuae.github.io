@@ -3,7 +3,7 @@ layout: post
 title: Mise en place de Poole sur GitHub Pages
 ---
 
-Avant de commencer à écrire sur Perl, voici quelques notes sur la mise en place de ce site propulsé par Poole sur GitHub Pages.
+Avant de commencer à écrire à proprement parler, voici quelques notes sur la mise en place de ce site propulsé par Poole sur GitHub Pages.
 
 [Poole](http://getpoole.com/) est un projet qui a pour mission de fournir une configuration de base claire et concise avec des exemples de modèles, de pages, de publications et de styles pour tout site Jekyll. [Jekyll](https://jekyllrb.com/) est un générateur de site simple et extensible, écrit en [Ruby](https://www.ruby-lang.org/) et utilisant [Liquid](https://shopify.github.io/liquid/). Il fonctionne en convertissant des fichiers [Markdown](https://daringfireball.net/projects/markdown/) en [HTML](https://w3c.github.io/html/) pour générer des sites statiques ou des blogs. [GitHub Pages](https://pages.github.com/) étant alimenté par Jekyll, c'est le choix le plus évident pour héberger du contenu sur ce service.
 
