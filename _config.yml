@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               eauxuae
 tagline:             —
-url:                 https://github.com/eauxuae
+url:                 https://eauxuae.github.io/
 paginate:            1
 baseurl:             ""
 
@@ -33,3 +33,6 @@ gems:
 
 # Plugins
 plugins: [jekyll-paginate]
+
+# Options
+analytics_id: https://eauxuae.goatcounter.com/count
