@@ -11,7 +11,7 @@ Avant de pouvoir utiliser Poole, il faut installer le paquet [ruby-dev](https://
 
 Une fois ces paquets installés, la mise en place de Poole est assez simple, il suffit de bifurquer son [dépôt](https://github.com/poole/poole) et de cloner celui-ci sur votre ordinateur.
 
-Attention, contrairement à ce qui est indiqué dans les instructions d'utilisation de Poole, si les ressources de votre site se trouvent dans un dépôt de type `username.github.io`, *il ne faut pas modifier la branche `gh-pages` et il faut rester sur la branche `master`*, parce que GitHub permet uniquement de construire ces pages utilisateurs à partir de la branche `master` : ![alt text](../public/2020-03-21-01.png "User pages must be built from the master branch.")
+Attention, contrairement à ce qui est indiqué dans les instructions d'utilisation de Poole, si les ressources de votre site se trouvent dans un dépôt de type `username.github.io`, *il ne faut pas modifier la branche `gh-pages` et il faut rester sur la branche `master`*, parce que GitHub permet uniquement de construire ces pages utilisateurs à partir de la branche `master` : ![Capture d'écran](../public/2020-03-21-01.png "User pages must be built from the master branch.")
 
 En suivant ces mêmes instructions d'utilisation, vous pouvez configurer votre installation en modifiant le fichier `_config.yml`. Si la pagination est activée, il faut penser à rajouter `plugins:    [jekyll-paginate]` dans ce même fichier, sans quoi les articles n'apparaitront pas lors du développement local.
 
